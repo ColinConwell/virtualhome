@@ -1,0 +1,11 @@
+# VirtualHome
+
+set shell := ["bash", "-eu", "-o", "pipefail", "-c"]
+
+# ---------------------------------------------------------------------------
+# Simulator
+# ---------------------------------------------------------------------------
+
+# Download or unpack the macOS Unity simulator (v2.3.0).
+download-macos:
+    ./virtualhome/helper_scripts/download_macos_exec.sh

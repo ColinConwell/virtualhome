@@ -178,3 +178,13 @@ test*/
 test*.py
 data/*
 .vscode/
+
+# IDE + AI
+.agents/
+.cursor/
+.claude/
+.codex/
+.gemini/
+.cursorignore
+AGENTS.md
+CLAUDE.md
